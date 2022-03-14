@@ -35,7 +35,9 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import logo2 from '../assets/logo2.png'
+import profilepic from '../assets/profilepic.png'
 export default {
+  profilepic,
   email,
   mobile,
   api,
