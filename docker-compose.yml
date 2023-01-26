@@ -1,9 +1,0 @@
-version: "3.9"
-services:
-  portfolioreact:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - REACT_APP_SANITY_PROJECTID=6cnpq42p
-      - REACT_APP_SANITY_TOKEN = skdBlNcPuxgP3VDEekHUY6pOPI0yAMYXiWNvbWZksNJ8rjol17IsHLhEKJMIHCbAhF8qKgqOpzaedWudVFFlPRU74lHkfXn7qVB9ctnPOVoRtMsAhES5Cqun3gGSDLO76FfdJhRsDT00vogHlv38lnC61u6087zDvH1TNh2bB3FmRD3iZ8vm
