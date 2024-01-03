@@ -5,6 +5,7 @@ import { About,Footer,Header,Skills,Testimonial,Work } from './container'
 import './App.scss'
 
 import { Navbar } from './components'
+import Certifications from './container/Certifications/Certifications'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Work/>
       <Skills/>
       <Testimonial/>
+      <Certifications/>
       <Footer/>
       
     </div>
