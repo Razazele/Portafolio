@@ -11,7 +11,7 @@ const Certifications = () => {
 
     useEffect(() => {
       const query = '*[_type == "Certifications"]'
-  
+
       client.fetch(query).then((data)=>{
         setCertifications(data)
       })
@@ -19,11 +19,12 @@ const Certifications = () => {
 
     return (
         <div className='app__certifications '>
+            <h2 className='head-text mb-5'>Certificaciones</h2>
             <Carousel data-bs-theme='dark'  className='caros' controls={false} indicators={true} interval={10000} pause={false} >
                 {certifications.map((certification, index) => (
                     <Carousel.Item key={index} style={{transition:'none'}}>
                         <img
-                            className="d-block ms-auto rounded w-100 "  
+                            className="d-block ms-auto rounded w-100 "
                             src={urlFor(certification.imgurl)}
                             alt={certification.name}
                         />

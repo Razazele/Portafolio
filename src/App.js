@@ -10,15 +10,15 @@ import Certifications from './container/Certifications/Certifications'
 const App = () => {
   return (
     <div className='app'>
-      <Navbar/> 
+      <Navbar/>
       <Header/>
       <About/>
       <Work/>
       <Skills/>
-      <Testimonial/>
+
       <Certifications/>
       <Footer/>
-      
+
     </div>
   )
 }
